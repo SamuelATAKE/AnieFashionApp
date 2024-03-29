@@ -84,7 +84,7 @@ const Page = () => {
           <div className='flex flex-col items-center space-y-2 text-center'>
             <Icons.logo className='h-20 w-20' />
             <h1 className='text-2xl font-semibold tracking-tight'>
-              Connecte-toi à ton compte {isSeller ? 'marchand' : ''}{' '}
+              Connecte-toi à ton compte {isSeller ? 'marchand / styliste' : ''}{' '}
             </h1>
 
             <Link
@@ -93,7 +93,7 @@ const Page = () => {
                 className: 'gap-1.5',
               })}
               href='/sign-up'>
-              Don&apos;t have an account?
+              Vous n&apos;avez pas de compte AnieFashion ?
               <ArrowRight className='h-4 w-4' />
             </Link>
           </div>
@@ -170,7 +170,7 @@ const Page = () => {
                 onClick={continueAsSeller}
                 variant='secondary'
                 disabled={isLoading}>
-                Continuer en tant que marchand
+                Continuer en tant que marchand / styliste
               </Button>
             )}
           </div>

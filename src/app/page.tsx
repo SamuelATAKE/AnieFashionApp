@@ -25,10 +25,10 @@ const perks = [
       'Chaque actif de notre plateforme est vérifié par notre équipe pour garantir nos normes de qualité les plus élevées. Pas heureux? Nous offrons une garantie de remboursement de 30 jours.',
   },
   {
-    name: 'For the Planet',
+    name: 'Local',
     Icon: Leaf,
     description:
-      "We've pledged 1% of sales to the preservation and restoration of the natural environment.",
+      "Consommons local et faisons la promotion des stylistes de chez nous.",
   },
 ]
 
