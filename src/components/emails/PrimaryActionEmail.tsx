@@ -56,7 +56,7 @@ export const EmailTemplate = ({
           </Text>
           <Hr style={hr} />
           <Text style={footer}>
-            Si vous n'avez pas demandé cet e-mail, vous pouvez l'ignorer en toute sécurité.
+            Si vous n&apos;avez pas demandé cet e-mail, vous pouvez l&apos;ignorer en toute sécurité.
           </Text>
         </Container>
       </Body>

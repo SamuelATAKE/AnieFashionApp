@@ -24,7 +24,7 @@ const VerifyEmail = ({ token }: VerifyEmailProps) => {
           Il y avait un problème
         </h3>
         <p className='text-muted-foreground text-sm'>
-          Ce jeton n'est pas valide ou est peut-être expiré. Veuillez réessayer.
+          Ce jeton n&apos;est pas valide ou est peut-être expiré. Veuillez réessayer.
         </p>
       </div>
     )
@@ -45,7 +45,7 @@ const VerifyEmail = ({ token }: VerifyEmailProps) => {
           Vous êtes prêt !
         </h3>
         <p className='text-muted-foreground text-center mt-1'>
-          Merci d'avoir vérifié votre email.
+          Merci d&apos;avoir vérifié votre email.
         </p>
         <Link
           className={buttonVariants({ className: 'mt-4' })}
